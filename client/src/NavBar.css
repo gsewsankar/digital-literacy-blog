@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Kiwi+Maru:wght@300&display=swap');
 
 .NavBar {
-    width: 150px;
+    width: 250px;
     position: fixed;
     z-index: 1;
     top: 20px;

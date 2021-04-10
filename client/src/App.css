@@ -10,6 +10,21 @@ html {
   scroll-behavior: smooth;
 }
 
+p{
+  padding-left: 300px;
+  padding-right: 300px;
+}
+
+a
+{
+  color: black;
+}
+
+a:hover
+{
+  color: blueviolet
+}
+
 .Header{
   background-color: #282c34;
   min-height: 100vh;
