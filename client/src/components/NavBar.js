@@ -3,9 +3,10 @@ import './NavBar.css'
 import Rotate from 'react-reveal/Rotate';
 
 function NavBar() {
+  
   return (
     <Rotate top right>
-    <div className="NavBar">
+    <div className="NavBar" id="mySidenav">
         <a href='#header'>Top</a>
         <a href='#section1'>AI Conciousness</a>
         <a href='#section2'>Turing Test</a>

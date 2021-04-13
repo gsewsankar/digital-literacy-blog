@@ -10,11 +10,6 @@ html {
   scroll-behavior: smooth;
 }
 
-p{
-  padding-left: 300px;
-  padding-right: 300px;
-}
-
 a
 {
   color: black;
@@ -35,7 +30,6 @@ a:hover
   font-size: calc(10px + 2vmin);
   font-family: 'Kiwi Maru', serif;
   color: white;
-  
 }
 
 .Section1{

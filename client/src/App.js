@@ -1,17 +1,18 @@
 import React from 'react';
 import './App.css';
 import Zoom from 'react-reveal/Zoom';
-import NavBar from './NavBar';
+import NavBar from './components/NavBar';
 import eye from './eye.png';
 
 function App() {
+  
   return (
     <div>
     <NavBar></NavBar>
-    <div className="App">
+    <div className="App" id="content">
       <div className="Header" id='header'>
         <Zoom>
-        <h2>Garrick's Thought Provoking Website</h2>
+        <h1>Garrick's Thought Provoking Website</h1>
         <img src={eye} alt="eye" />
         </Zoom>
       </div>
@@ -28,7 +29,7 @@ function App() {
           title="YouTube video player" 
           frameborder="0" 
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-          allowfullscreen>
+          allowFullScreen>
           </iframe>
           </div>
           <div>
@@ -55,7 +56,7 @@ function App() {
             title="YouTube video player2" 
             frameborder="0" 
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-            allowfullscreen>
+            allowFullScreen>
             </iframe>
           </Zoom>
       </div>
@@ -68,7 +69,15 @@ function App() {
             uncontrollable and irreversible, resulting in unforeseeable changes to 
             human civilization.
             </p>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/ye5C-zlCAyM" title="YouTube video player3" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe 
+        width="560" 
+        height="315" 
+        src="https://www.youtube.com/embed/ye5C-zlCAyM" 
+        title="YouTube video player3" 
+        frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+        allowFullScreen>
+        </iframe>
         </Zoom>
       </div>
       
@@ -80,7 +89,15 @@ function App() {
             <li>Are human intelligence and machine intelligence the same? Is the human brain essentially a computer?</li>
             <li>Can a machine have a mind, mental states, and consciousness in the same sense that a human being can? Can it feel how things are?</li>
             </p>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/39EdqUbj92U" title="YouTube video player4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe 
+            width="560" 
+            height="315" 
+            src="https://www.youtube.com/embed/39EdqUbj92U" 
+            title="YouTube video player4" 
+            frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+            allowFullScreen>
+            </iframe>
           </Zoom>
       </div>
 
@@ -95,7 +112,7 @@ function App() {
           title="YouTube video player5" 
           frameborder="0" 
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-          allowfullscreen>
+          allowFullScreen>
           </iframe>
           
         </Zoom>
@@ -105,7 +122,15 @@ function App() {
         <Zoom>
         <h1>Cryptocurrencies and Blockchain Technology</h1>
           <p>A cryptocurrency (or “crypto”) is a digital currency that can be used to buy goods and services, but uses an online ledger with strong cryptography to secure online transactions. Much of the interest in these unregulated currencies is to trade for profit, with speculators at times driving prices skyward.</p>
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/SSo_EIwHSd4" title="YouTube video player6" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe 
+          width="560" 
+          height="315" 
+          src="https://www.youtube.com/embed/SSo_EIwHSd4" 
+          title="YouTube video player6" 
+          frameborder="0" 
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+          allowFullScreen>
+          </iframe>
           </Zoom>
       </div>
 
@@ -113,7 +138,15 @@ function App() {
         <Zoom>
         <h1>Digital Art and NFTs</h1>
           <p>A non-fungible token (NFT) is a unit of data on a digital ledger called a blockchain, where each NFT can represent a unique digital item, and thus they are not interchangeable. NFTs can represent digital files such as art, audio, videos, items in video games and other forms of creative work.</p>
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/zpROwouRo_M" title="YouTube video player7" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe 
+          width="560" 
+          height="315" 
+          src="https://www.youtube.com/embed/zpROwouRo_M" 
+          title="YouTube video player7" 
+          frameborder="0" 
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+          allowFullScreen>
+          </iframe>
           </Zoom>
       </div>
       

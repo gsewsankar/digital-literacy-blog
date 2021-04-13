@@ -6,7 +6,7 @@
     z-index: 1;
     top: 20px;
     left: 10px;
-    background: rgb(201, 201, 201);
+    background: rgba(201, 201, 201, 0.561);
     overflow-x: hidden;
     padding: 8px 0;
   }
@@ -23,12 +23,6 @@
   .NavBar a:hover {
     color: #ffffff;
     background: rgb(143, 143, 143);
-  }
-  
-  .main {
-    margin-left: 140px; /* Same width as the sidebar + left position in px */
-    font-size: 28px; /* Increased text to enable scrolling */
-    padding: 0px 10px;
   }
   
   @media screen and (max-height: 450px) {
