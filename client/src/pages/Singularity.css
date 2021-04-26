@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Kiwi+Maru:wght@300&display=swap'); 
+
+.Singularity{
+    background-color: #1ecccc;
+    text-align: center;
+    font-family: cursive;
+    color: white;
+    font-size: calc(10px + 2vmin);
+    min-height: 100vh;
+    font-family: 'Kiwi Maru', serif;
+}

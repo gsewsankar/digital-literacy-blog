@@ -4,6 +4,7 @@
   text-align: center;
   filter: grayscale(73%);
   font-family: cursive;
+  font-family: 'Kiwi Maru', serif;
 }
 
 html {
@@ -18,16 +19,6 @@ h1{
 p{
   padding-left: 300px;
   padding-right: 300px;
-}
-
-a
-{
-  color: black;
-}
-
-a:hover
-{
-  color: blueviolet
 }
 
 .Header{
@@ -128,5 +119,10 @@ a:hover
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+
+.homebar{
+  background-color: rgb(48, 48, 48);
+  font-family: 'Kiwi Maru', serif;
 }
 

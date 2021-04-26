@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Kiwi+Maru:wght@300&display=swap'); 
+
+.Turing{
+    text-align: center;
+    font-family: cursive;
+    color: white;
+    background-color: #2e60c5;
+    font-size: calc(10px + 2vmin);
+    min-height: 100vh;
+    font-family: 'Kiwi Maru', serif;
+}
+

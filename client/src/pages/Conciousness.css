@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Kiwi+Maru:wght@300&display=swap'); 
+
+.Conciousness{
+    background-color: #8d66cc;
+    text-align: center;
+    font-family: cursive;
+    color: white;
+    min-height: 100vh;
+    font-size: calc(10px + 2vmin);
+    font-family: 'Kiwi Maru', serif;
+}
